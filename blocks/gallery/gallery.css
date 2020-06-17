@@ -1,0 +1,29 @@
+@import url(./__image/gallery__image.css);
+.gallery{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 16px 16px;
+  padding: 92px 48px;
+ 
+}
+@media screen and (max-width: 1200px){
+  .gallery{
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 14px 14px;
+    padding: 92px 48px;
+  }
+}
+@media screen and (max-width: 920px){
+  .gallery{
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 16px 16px;
+    padding: 88px 24px;
+  }
+}
+@media screen and (max-width: 720px){
+  .gallery{
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 12px 12px;
+    padding: 64px 16px;
+  }
+}
