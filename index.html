@@ -6,9 +6,9 @@
   <link rel="stylesheet" href="./pages/index.css">
   <title>Путешествия по России</title>
 </head>
-<body>
+<body class="root">
   <div class="page">
-    <header class="header">
+    <!--<header class="header">
         <img class="header__logo" src="./images/header-logo.svg" alt="лого">
         <div class="header__lang-links">
           <a href="#" class="header__lang-link header__lang-link_selected">Ru</a>
@@ -18,7 +18,7 @@
     <main class="content">
         <section class="lead">
           <h1 class="lead__title">Путешествия по России</h1>
-          <h2 class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</h2>
+          <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
           <img class="lead__image" src="./images/lead-polka.jpg" alt="полка">
           <p class="lead__caption">ваша полка — верхняя</p>
         </section> 
@@ -32,11 +32,11 @@
               усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране.
               Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
             <ul class="intro__list">
-                <li class="intro__list-item">Часовых поясов 11</li>
-                <li class="intro__list-item">Объектов природного наследия ЮНЕСКО 12</li>
-                <li class="intro__list-item">Объектов культурного наследия ЮНЕСКО 16</li>
-                <li class="intro__list-item">Природных заповедников 105</li>
-                <li class="intro__list-item">Аэропортов 241</li>
+                <li class="intro__list-item"><span class="intro__list-item-weight">Часовых поясов</span> 11</li>
+                <li class="intro__list-item"><span class="intro__list-item-weight">Объектов природного наследия ЮНЕСКО</span> 12</li>
+                <li class="intro__list-item"><span class="intro__list-item-weight">Объектов культурного наследия ЮНЕСКО</span> 16</li>
+                <li class="intro__list-item"><span class="intro__list-item-weight">Природных заповедников 105</span></li>
+                <li class="intro__list-item"><span class="intro__list-item-weight">Аэропортов</span> 241</li>
             </ul>
         </section>
         <section class="gallery">
@@ -60,7 +60,7 @@
                   <img class="places__image" src="./images/place-kosa.jpg" alt="коса">
                   <div class="places__web">
                       <p class="places__web-url">URL</p>
-                      <a class="places__web-link" href="http://park-kosa.ru">park-kosa.ru</a>
+                      <a class="places__web-link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
                   </div>
                   <div class="places__text">
                     <p class="places__paragraf">Здесь, посреди лесов и песчаных дюн,
@@ -78,7 +78,7 @@
                     <img class="places__image" src="./images/place-kolsky.jpg" alt="кольский">
                     <div class="places__web">
                         <p class="places__web-url">URL</p>
-                        <a class="places__web-link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National Geographic</a>
+                        <a class="places__web-link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank">National Geographic</a>
                     </div>
                     <div class="places__text">
                       <p class="places__paragraf">Почти весь полуостров находится за Полярным кругом. Саамская тундра, от которой на юг — 
@@ -92,7 +92,7 @@
                     <img class="places__image" src="./images/place-altai.jpg" alt="алтай">
                     <div class="places__web">
                         <p class="places__web-url">URL</p>
-                        <a class="places__web-link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822">Facebook</a>
+                        <a class="places__web-link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="_blank">Facebook</a>
                     </div>
                     <div class="places__text">
                       <p class="places__paragraf">Алтай — одно из красивейших мест в России. 
@@ -105,7 +105,7 @@
                     <img class="places__image" src="./images/place-winter-baikal.jpg" alt="коса">
                     <div class="places__web">
                         <p class="places__web-url">URL</p>
-                        <a class="places__web-link" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
+                        <a class="places__web-link" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a>
                     </div>
                     <div class="places__text">
                       <p class="places__paragraf">Всем известен Байкал как крупнейшее озеро 
@@ -118,8 +118,8 @@
                     <h2 class="places__title">Карелия</h2>
                     <img class="places__image" src="./images/place-karelia.jpg" alt="коса">
                     <div class="places__web">
-                        <p class="places__web-url">URL</p>
-                        <a class="places__web-link" href="http://vodlozero.ru">http://vodlozero.ru/</a>
+                        <p class="places__web-url">url</p>
+                        <a class="places__web-link" href="http://vodlozero.ru" target="_blank">http://vodlozero.ru/</a>
                     </div>
                     <div class="places__text">
                       <p class="places__paragraf">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских национальных парков из-за непроходимых болот никогда не знали топора. Некоторым соснам уже больше чем полтысячелетия. Прикоснитесь к живому существу, видевшему солнце раньше, чем увидал его Иван Грозный. 
@@ -128,29 +128,28 @@
                     </div>
                   </li>
             </ul>
-        </section>
+        </section>-->
         <section class="cover">
+          <a class="cover__card" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
             <img class="cover__image" src="./images/cover-trains.jpg" alt="поезд">
-            <div class="cover__overlay">
-                <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala"></a>
+            <div class="cover__text">
+              <h2 class="cover__title">До Байкала «на собаках»</h2>
+              <p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала на электричках.</p>
             </div>
-          <div class="cover__text">
-            <h2 class="cover__title">До Байкала «на собаках»</h2>
-            <p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала на электричках.</p>
-          </div>
+        </a>
         </section>
     </main>
     <footer class="footer">
-      <div class="footer__columns">
-            <ul class="footer__links">
-                <li class="footer__links-el"><a class="footer__link" href="https://yandex.ru/maps">Карты</a></li>
-                <li class="footer__links-el"><a class="footer__link" href="https://yandex.ru/pogoda">Погода</a></li>
-                <li class="footer__links-el"><a class="footer__link" href="https://rasp.yandex.ru">Расписание</a></li>
-                <li class="footer__links-el"><a class="footer__link" href="https://calendar.yandex.ru">Календарь</a></li>
-                <li class="footer__links-el"><a class="footer__link" href="https://travel.yandex.ru">Путешествие</a></li>
-            </ul>
-          <p class="footer__author">&COPY; 2020. Титяков Николай</p>
-      </div>
+      <nav class="footer__navigation">
+        <ul class="footer__links">
+          <li class="footer__links-el"><a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a></li>
+          <li class="footer__links-el"><a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a></li>
+          <li class="footer__links-el"><a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a></li>
+          <li class="footer__links-el"><a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a></li>
+          <li class="footer__links-el"><a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествие</a></li>
+        </ul>
+      </nav>
+      <p class="footer__author">&COPY; 2020. Титяков Николай</p>
     </footer>
   </div>
 </body>
