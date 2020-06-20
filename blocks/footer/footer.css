@@ -5,16 +5,19 @@
 @import url(./__links-el/footer__links-el.css);
 
 .footer{
-    padding: 0 48px 24px;
+  padding: 0 48px 24px;
+  display: flex;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 920px){
-    .footer{
-        padding: 0 24px 24px;
-    }
+  .footer{
+    padding: 0 24px 24px;
+  }
 }
 @media screen and (max-width: 720px){
-    .footer{
-        padding: 0 0 16px 24px;
-    }
+  .footer{
+    padding: 0 0 16px 24px;
+    flex-direction: column;
+  }
 }

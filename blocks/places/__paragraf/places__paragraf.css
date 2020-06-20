@@ -1,16 +1,16 @@
 .places__paragraf{
-    font-size: 18px;
-line-height: 1.6;
+  font-size: 18px;
+  line-height: 1.67;
   margin: 0 0 24px;
 }
 
 .places__paragraf:last-of-type{
-    margin: 0;
+  margin: 0;
 }
 
 @media screen and (max-width: 920px){
   .places__paragraf{
     font-size: 16px;
-    line-height: 1.6;
+    line-height: 1.63;
   }
 }

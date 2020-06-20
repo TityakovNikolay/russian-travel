@@ -3,20 +3,20 @@
 @import url(./__image/lead__image.css);
 @import url(./__caption/lead__caption.css);
 .lead{
-    display: flex;
-    flex-direction: column;
-    padding: 56px 148px 0px;
+  display: flex;
+  flex-direction: column;
+  padding: 56px 148px 0px;
 
     
 }
 @media screen and (max-width: 1200px){
-    .lead{
-      padding: 48px 48px 0;
-    }
+  .lead{
+    padding: 48px 48px 0;
+  }
 }
 
 @media screen and (max-width: 920px){
-    .lead{
-      padding: 48px 0 0;
-    }
+  .lead{
+    padding: 48px 0 0;
+  }
 }

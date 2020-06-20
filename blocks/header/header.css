@@ -3,9 +3,9 @@
 @import url(./__lang-links/header__lang-links.css);
 @import url(./__lang-link/_selected/header__lang-link_selected.css);
 .header{
-    display: flex;
-    justify-content: space-between;
-    padding: 28px 48px 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 28px 48px 0;
 }
   
    @media screen and (max-width: 920px){

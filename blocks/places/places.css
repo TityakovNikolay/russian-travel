@@ -8,23 +8,26 @@
 @import url(./__web-link/places__web-link.css);
 @import url(./__paragraf/places__paragraf.css);
 .places{
-    margin: 0;
-    padding: 0 148px 92px;
+  margin: 0;
+  padding: 0 148px 92px;
     
 }
 
 @media screen and (max-width: 1200px){
-    .places{
-        padding: 0 48px 92px;
-    }
+  .places{
+    padding: 0 48px 92px;
+  }
 }
 @media screen and (max-width: 920px){
-    .places{
-        padding: 0 24px 88px;
-    }
+  .places{
+    padding: 0 24px 88px;
+  }
 }
 @media screen and (max-width: 720px){
-    .places{
-        padding: 0 0 64px;
-    }
+  .places{
+    padding: 0 0 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }

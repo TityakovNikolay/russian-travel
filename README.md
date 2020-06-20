@@ -10,5 +10,7 @@
 * Создание адоптивного сайта;
 * Маштабирование элементов при помощи относительных значений;
 
+My site is published at https://tityakovnikolay.github.io/russian-travel/
+
 
 ### **2020 Титяков Н.М.**

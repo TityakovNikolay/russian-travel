@@ -2,24 +2,25 @@
 @import url(./__list/intro__list.css);
 @import url(./__text/intro__text.css);
 @import url(./__title/intro__title.css);
+@import url(./__list-item-weight/intro__list-item-weight.css);
 .intro{
-    padding: 92px 148px 0;
+  padding: 92px 148px 0;
 }
 
 @media screen and (max-width: 1200px){
-    .intro{
-      padding: 0 48px;
-    }
+  .intro{
+    padding: 92px 48px 0;
+  }
 }
 
 @media screen and (max-width: 920px){
-    .intro{
-      padding: 88px 24px 0;
-    }
+  .intro{
+    padding: 88px 24px 0;
+  }
 }
 
 @media screen and (max-width: 720px){
-    .intro{
-      padding: 64px 16px 0;
-    }
+  .intro{
+    padding: 64px 16px 0;
+  }
 }

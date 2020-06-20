@@ -2,13 +2,12 @@
 @import url(./__subtitle/cover__subtitle.css);
 @import url(./__text/cover__text.css);
 @import url(./__image/cover__image.css);
-@import url(./__overlay/cover__overlay.css);
-@import url(./__link/cover__link.css);
+@import url(./__card/cover__card.css);
 
 .cover{
-    padding: 0 48px 92px;
-    display: grid;
-    grid-template-columns: 1f;
+  padding: 0 48px 92px;
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 @media screen and (max-width: 1200px){
